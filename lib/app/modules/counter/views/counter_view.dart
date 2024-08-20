@@ -19,7 +19,7 @@ class CounterView extends GetView<CounterController> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Obx(
-              () => Text('Click Kang : ${c.bilangan}'),
+              () => Text('Click sok ${c.bilangan}'),
             ),
             ElevatedButton(
               onPressed: () {
